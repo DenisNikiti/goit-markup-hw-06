@@ -57,8 +57,9 @@
                   <div class="modal-fon is-hidden" data-modal>
                           <div class="modal"> 
                              <button class="button-modal" type="button" data-modal-close><svg class="icon-close"><use href="./symbol-defs.svg#icon-close"></use></svg></button>
+                                <p class="title-modal">Оставьте свои данные, мы вам перезвоним</p>
                              <form class="form" autocomplete="off">
-                                <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
+                              
 
                                 <label class="label" for="text">Имя  </label>
                                 <div class="input-container">
@@ -69,7 +70,7 @@
 
 
                                 <label class="label" for="phone">Телефон</label>
-                                <div class="input-container"><input type="numer" class="input" id="phone" name="phone">
+                                <div class="input-container"><input type="number" class="input" id="phone" name="phone">
                                     <svg class="icon-modal"><use href="./symbol-defs 2.svg#icon-phone-modal"></use></svg>
                                 </div>
                                 
@@ -85,14 +86,15 @@
 
 
 
-                              
-                               <label class="label-check" >Соглашаюсь с рассылкой и принимаю <a href="" target="_blank" rel="noopener noreferrer nofollow" class="link-modal">Условия договора</a>
+                           
+                               <label class="label-check">
                                 <input type="checkbox" class="checkbox">
-                               <div class="icon-modal-check"><svg class="icon-check"><use href="./symbol-defs 2.svg#icon-check"></use></svg> </div>
-                                
+                               
+                               <span class="icon-modal-check"><svg class="icon-check"><use href="./symbol-defs 2.svg#icon-check"></use></svg> </span>
+                                Соглашаюсь с рассылкой и принимаю <a href="" target="_blank" rel="noopener noreferrer nofollow"class="link-modal">Условия договора</a>
                             </label>      
                             
-                         <button type="submit" class="button-form">Отправить</button>
+                         <button type="submit" class="button">Отправить</button>
                              </form>
                             </div>
                           
@@ -242,14 +244,16 @@
                             <li class="social-links-item"><a href="" class="link social-link" target="_blank" rel="noopener noreferrer nofollow"> <svg class="icon-command"><use href="./images/symbol-defs.svg#icon-linkedin2"></use></svg></a></li>
                         </ul>
                         </div>
-            <form>
-            <label for="footer-input" class="footer-label">Подпишитесь на рассылку</label>
+            <div class="footer-item">
+             <form class="footer-form">
+            <label for="footer-input" class="text-links-footer">Подпишитесь на рассылку</label>
             <div class="footer-input-container">
-            <input class="footer-input" id="footer-input" placeholder="E-mail">
-            <button type="submit" class="button-footer">Подписаться <svg class="icon-send"><use href="./symbol-defs 2.svg#icon-send"></use></svg></button>
+            <input class="footer-input" id="footer-input" placeholder="E-mail" >
+            <button type="submit" class="button">Подписаться <svg class="icon-send"><use href="./symbol-defs 2.svg#icon-send"></use></svg></button>
             </div>
             
             </form>
+           </div>
         </div>
     
    
