@@ -332,6 +332,7 @@ background-color: #188CE8;
         line-height: 23px;
         text-align: center;
         color: var(--color-secondary);
+        margin-bottom: 12px;
   }
 
 .label{
@@ -384,12 +385,12 @@ background-color: #188CE8;
 }
 .textarea{
     resize: none;
-    width: 448px;
-    min-height: 138px;
-    margin-top: 6px;
+    width: 100%;
+    min-height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
+    margin-bottom: 20px;
     
 }
 
